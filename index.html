@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@200&family=Outfit:wght@100;400;500&family=Overpass:wght@300&family=Plus+Jakarta+Sans:wght@300&family=Roboto&family=Space+Grotesk&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: hsl(217, 54%, 11%);
+    }
+
+    .box {
+      width: 320px;
+      height: 560px;
+      margin: 100px auto;
+      background-color: hsl(216, 50%, 16%);
+      color: hsl(215, 32%, 27%);
+      border: 2px solid hsl(216, 50%, 16%);
+      border-radius: 15px;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    #box-1 {
+      width: 280px;
+      height: 280px;
+      border: 2px solid hsl(216, 50%, 16%);
+      border-radius: 15px;
+      margin: 18px 18px 2px 18px;
+      /* background-color: azure; */
+      background-image: url('images/image-equilibrium.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .box h3 {
+      color: hsl(0, 0%, 100%);
+      padding-left: 25px;
+    }
+
+    p {
+      color: hsl(215, 51%, 70%);
+      padding: 0px 25px;
+      margin: 0px 0px 20px 0px;
+      line-height: 1.5;
+    }
+
+    #item-3 {
+      color: hsl(178, 100%, 50%);
+      font-size: 13px;
+      padding: 0px 20px 0px 0px;
+      font-weight: bold;
+      margin: 5px 36px 0px 0px;
+    }
+
+    #item-4 {
+      color: hsl(215, 51%, 70%);
+      font-size: 14px;
+      padding: 2px 10px 0px 0px;
+    }
+
+    #item-1 img {
+      width: 9px;
+      height: 15px;
+      margin: 5px 5px 10px 25px;
+    }
+
+    #item-2 img {
+      width: 15px;
+      height: 15px;
+      margin: 5px 5px 10px 58px;
+    }
+
+    .box hr {
+      color: hsl(178, 100%, 50%);
+      width: 270px;
+      height: 0%;
+      margin: 8px 25px 10px 25px;
+    }
+
+    .para-1 {
+      display: flex;
+    }
+
+    .para-2 {
+      display: flex;
+    }
+
+    .para-2 img {
+      border-radius: 20px;
+      width: 30px;
+      height: 30px;
+      border: 2px solid white;
+      margin: 5px 15px 10px 30px;
+    }
+
+    #item-5 {
+      font-size: 14px;
+      color: hsl(215, 51%, 70%);
+      padding: 13px 80px 20px 0px;
+    }
+
+    #item-6 {
+      color: white;
+    }
+
+    h3:hover {
+      cursor: pointer;
+      color: hsl(178, 100%, 50%);
+    }
+
+    #item-6:hover {
+      cursor: pointer;
+      color: hsl(178, 100%, 50%);
+    }
+
+    #box-1:hover {
+      cursor: pointer;
+      background-color: hsl(178, 100%, 50%);
+    }
+
+    @media only screen and (min-width: 320px) and (max-height: 560px){
+      .box{
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div id="box-1"> </div>
+
+    <h3>Equilibrium #3429</h3>
+    <p>Our Equilibrium collection promotes balance and calm.</p>
+
+    <div class="para-1">
+      <span id="item-1"><img src="images/icon-ethereum.svg" alt=""></span><span id="item-3">0.041 ETH</span>
+      <span id="item-2"><img src="images/icon-clock.svg" alt=""></span><span id="item-4">3 days left</span>
+    </div>
+    <hr>
+
+    <div class="para-2">
+      <span><img src="images/image-avatar.png" alt=""></span>
+      <span id="item-5">Creation of <span id="item-6">Jules Wyvern</span></span>
+    </div>
+
+  </div>
+
+
+  </div>
+
+
+  <!-- Equilibrium #3429
+
+  Our Equilibrium collection promotes balance and calm.
+
+  0.041 ETH
+  3 days left
+  
+  Creation of Jules Wyvern -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
